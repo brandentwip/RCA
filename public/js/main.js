@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contactForm');
 
   if (contactForm) {
+    setContactFormDefaults();
+
     contactForm.addEventListener('submit', async (e) => {
       e.preventDefault();
 
@@ -95,6 +97,31 @@ document.addEventListener('DOMContentLoaded', () => {
   // Set active nav link
   setActiveNav();
 });
+
+function setContactFormDefaults() {
+  const params = new URLSearchParams(window.location.search);
+  const interestParam = params.get('interest');
+
+  if (interestParam !== 'careers') {
+    return;
+  }
+
+  const interest = document.getElementById('interest');
+  const subject = document.getElementById('subject');
+  const message = document.getElementById('message');
+
+  if (interest) {
+    interest.value = 'Looking For Career Opportunities';
+  }
+
+  if (subject && !subject.value.trim()) {
+    subject.value = 'Career application';
+  }
+
+  if (message && !message.value.trim()) {
+    message.value = 'I would like to apply for a career opportunity at RCA and Co LLP.';
+  }
+}
 
 function isValidEmail(email) {
   const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
