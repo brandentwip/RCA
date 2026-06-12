@@ -93,8 +93,10 @@ header {
 }
 
 .logo img {
-  width: 44px;
-  height: 44px;
+  width: auto;
+  height: 48px;
+  max-width: min(240px, 52vw);
+  object-fit: contain;
 }
 
 .logo-text {
