@@ -1,0 +1,98 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1200" height="800" fill="#f8f9fa"/>
+  
+  <!-- Gradient background -->
+  <defs>
+    <linearGradient id="officeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0b1736;stop-opacity:0.05" />
+      <stop offset="100%" style="stop-color:#d4a574;stop-opacity:0.05" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="800" fill="url(#officeGradient)"/>
+  
+  <!-- Building elements -->
+  <!-- Left building -->
+  <rect x="50" y="250" width="250" height="550" fill="#e8eef5" stroke="#d0d8e0" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="80" y="300" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="150" y="300" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="220" y="300" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="80" y="380" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="150" y="380" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="220" y="380" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="80" y="460" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="150" y="460" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="220" y="460" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="80" y="540" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="150" y="540" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="220" y="540" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="80" y="620" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="150" y="620" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="220" y="620" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <!-- Door -->
+  <rect x="110" y="700" width="50" height="100" fill="#6b5d51" stroke="#3d3530" stroke-width="2"/>
+  
+  <!-- Middle building (taller) -->
+  <rect x="400" y="150" width="280" height="650" fill="#d9dfe6" stroke="#b8c0c8" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="435" y="200" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="520" y="200" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="605" y="200" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="435" y="300" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="520" y="300" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="605" y="300" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="435" y="400" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="520" y="400" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="605" y="400" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="435" y="500" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="520" y="500" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="605" y="500" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="435" y="600" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="520" y="600" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="605" y="600" width="45" height="45" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <!-- Door -->
+  <rect x="490" y="700" width="60" height="100" fill="#6b5d51" stroke="#3d3530" stroke-width="2"/>
+  
+  <!-- Right building -->
+  <rect x="850" y="300" width="250" height="500" fill="#e8eef5" stroke="#d0d8e0" stroke-width="2"/>
+  <!-- Windows -->
+  <rect x="880" y="350" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="950" y="350" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="1020" y="350" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="880" y="430" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="950" y="430" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="1020" y="430" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="880" y="510" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="950" y="510" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="1020" y="510" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <rect x="880" y="590" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="950" y="590" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  <rect x="1020" y="590" width="40" height="40" fill="#87ceeb" stroke="#4a90a4" stroke-width="1"/>
+  
+  <!-- Door -->
+  <rect x="910" y="750" width="50" height="50" fill="#6b5d51" stroke="#3d3530" stroke-width="2"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="800" width="1200" height="0" fill="#8b9c5f" stroke="none"/>
+  
+  <!-- Street lines -->
+  <line x1="0" y1="780" x2="1200" y2="780" stroke="#c0c0c0" stroke-width="3" stroke-dasharray="20,10"/>
+  
+  <!-- Text overlay -->
+  <text x="600" y="750" font-size="24" font-weight="bold" fill="#0b1736" text-anchor="middle" opacity="0.3">RCA and Co LLP Office</text>
+</svg>
