@@ -1223,6 +1223,7 @@ footer {
 
   nav.open {
     max-height: 500px;
+    margin-top: 85%;
     opacity: 1;
     background: rgba(255, 255, 255, 0.95);
     visibility: visible;
